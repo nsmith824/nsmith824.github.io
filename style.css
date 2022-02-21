@@ -1,29 +1,38 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Light.ttf);
+}
+
 body {
-    font-family: monospace;
+    font-family: Roboto;
     color: white;
     background-color: rgb(28, 34, 48);
     margin: auto;
     padding: 2em;
-    max-width: 500px;
+    max-width: 600px;
     display: flex;
     align-items: flex-start;
 }
 
 div#left-column {
     border-right: white solid 1px;
-    flex: 1 1 350px;
+    flex: 1 1 300px;
     padding: 1em;
     line-height: 1.5em;
     text-align: right;
 }
 
 div#right-column {
-    flex: 1 1 350px;
+    flex: 1 1 300px;
     padding: 1em;
     line-height: 1.5em;
     text-align: left;
 }
 
 h1#name {
-    font-size: 24pt;
+    font-size: 32pt;
+}
+
+h2#projects {
+    margin: 10.5% auto;
 }
