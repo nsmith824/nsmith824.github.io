@@ -3,6 +3,11 @@
     src: url(Roboto-Light.ttf);
 }
 
+@font-face {
+    font-family: RobotoBold;
+    src: url(Roboto-Bold.ttf);
+}
+
 body {
     font-family: Roboto;
     color: white;
@@ -16,20 +21,21 @@ body {
 
 div#left-column {
     border-right: white solid 1px;
-    flex: 1 1 300px;
+    flex: 1 1 250px;
     padding: 1em;
     line-height: 1.5em;
     text-align: right;
 }
 
 div#right-column {
-    flex: 1 1 300px;
+    flex: 1 1 350px;
     padding: 1em;
     line-height: 1.5em;
     text-align: left;
 }
 
 h1#name {
+    font-family: RobotoBold;
     font-size: 32pt;
 }
 
