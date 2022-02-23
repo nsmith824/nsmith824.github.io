@@ -13,24 +13,28 @@ body {
     color: white;
     background-color: rgb(28, 34, 48);
     margin: auto;
-    padding: 2em;
+    padding: 3em;
     max-width: 600px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+}
+
+div#left-column,
+#right-column {
+    padding: 1em;
+    line-height: 1.5em;
+    float: left;
+    width: 50%;
 }
 
 div#left-column {
-    border-right: white solid 1px;
     flex: 1 1 250px;
-    padding: 1em;
-    line-height: 1.5em;
     text-align: right;
 }
 
 div#right-column {
+    border-left: white solid 1px;
     flex: 1 1 350px;
-    padding: 1em;
-    line-height: 1.5em;
     text-align: left;
 }
 
@@ -39,6 +43,8 @@ h1#name {
     font-size: 32pt;
 }
 
-h2#projects {
-    margin: 10.5% auto;
+
+/*h2#projects {
+     margin: 10.5% auto; 
 }
+*/
