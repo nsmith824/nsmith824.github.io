@@ -12,11 +12,30 @@ body {
     font-family: Roboto;
     color: white;
     background-color: rgb(28, 34, 48);
+}
+
+div#content {
     margin: auto;
-    padding: 3em;
     max-width: 600px;
     display: flex;
+}
+
+div#top {
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+div#top>h1 {
+    border-bottom: white solid 1px;
+    text-align: center;
+    max-width: 600px;
+    min-width: 600px;
+}
+
+h1,
+h2 {
+    margin-block-end: 0em;
 }
 
 div#left-column,
@@ -28,23 +47,22 @@ div#left-column,
 }
 
 div#left-column {
-    flex: 1 1 250px;
+    flex: 1 1 300px;
     text-align: right;
+}
+
+h2#topcol {
+    margin-block-start: 0em;
 }
 
 div#right-column {
     border-left: white solid 1px;
-    flex: 1 1 350px;
+    flex: 1 1 300px;
     text-align: left;
 }
 
 h1#name {
     font-family: RobotoBold;
     font-size: 32pt;
+    line-height: normal;
 }
-
-
-/*h2#projects {
-     margin: 10.5% auto; 
-}
-*/
