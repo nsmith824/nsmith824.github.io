@@ -14,28 +14,25 @@ body {
     background-color: rgb(28, 34, 48);
 }
 
-div#content {
-    margin: auto;
-    max-width: 600px;
-    display: flex;
-}
-
 div#top {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-div#top>h1 {
+h1#name {
+    font-family: RobotoBold;
+    font-size: 2.67em;
+    line-height: normal;
     border-bottom: white solid 1px;
     text-align: center;
-    max-width: 600px;
     min-width: 600px;
 }
 
-h1,
-h2 {
-    margin-block-end: 0em;
+div#content {
+    margin: auto;
+    max-width: 600px;
+    display: flex;
 }
 
 div#left-column,
@@ -51,18 +48,17 @@ div#left-column {
     text-align: right;
 }
 
-h2#topcol {
-    margin-block-start: 0em;
-}
-
 div#right-column {
     border-left: white solid 1px;
     flex: 1 1 300px;
     text-align: left;
 }
 
-h1#name {
-    font-family: RobotoBold;
-    font-size: 32pt;
-    line-height: normal;
+h1,
+h2 {
+    margin-block-end: 0em;
+}
+
+h2#topcol {
+    margin-block-start: 0em;
 }
