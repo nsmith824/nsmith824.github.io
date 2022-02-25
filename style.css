@@ -1,3 +1,7 @@
+/**Credit to Christian Robertson of Google
+for the fantastic Roboto font
+https://github.com/googlefonts/roboto*/
+
 @font-face {
     font-family: Roboto;
     src: url(Roboto-Light.ttf);
@@ -14,43 +18,45 @@ body {
     background-color: rgb(28, 34, 48);
 }
 
-div#top {
+
+/*Top of page (name) formatting*/
+
+div#top,
+div#content {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 h1#name {
     font-family: RobotoBold;
     font-size: 2.67em;
-    line-height: normal;
     border-bottom: white solid 1px;
     text-align: center;
     min-width: 625px;
 }
 
+
+/*End top of page formatting,
+Start resume content formatting*/
+
 div#content {
     margin: auto;
     max-width: 625px;
-    display: flex;
 }
 
 div#left-column,
 #right-column {
     padding: 1em;
     line-height: 1.5em;
-    float: left;
-    width: 50%;
+    flex: 1 1 50%;
 }
 
 div#left-column {
-    flex: 1 1 50%;
     text-align: right;
 }
 
 div#right-column {
     border-left: white solid 1px;
-    flex: 1 1 50%;
     text-align: left;
 }
 
