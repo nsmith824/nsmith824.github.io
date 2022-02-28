@@ -18,6 +18,11 @@ body {
     background-color: rgb(28, 34, 48);
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /*Top of page (name) formatting*/
 
