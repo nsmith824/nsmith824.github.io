@@ -80,7 +80,8 @@ h2#topcol2 {
 Start print formatting*/
 
 @media print {
-    body {
+    body,
+    a {
         background-color: white;
         color: black;
     }
