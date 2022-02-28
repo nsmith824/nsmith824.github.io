@@ -69,3 +69,14 @@ h2#topcol1,
 h2#topcol2 {
     margin-block-start: 0em;
 }
+
+
+/*End content formatting,
+Start print formatting*/
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
